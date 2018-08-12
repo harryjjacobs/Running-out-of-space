@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c51cd8f1b72a0fe41b0b4cde5eea2315, type: 3}
+  m_Name: Default
+  m_EditorClassIdentifier: 
+  PrimaryColorLight: {r: 0.44117647, g: 0, b: 1, a: 1}
+  PrimaryColorDark: {r: 0.11422902, g: 0.19121939, b: 0.516, a: 1}
+  SecondaryColorLight: {r: 0.6764706, g: 1, b: 0.6764706, a: 1}
+  SecondaryColorDark: {r: 0.43651417, g: 0.459, b: 0.13840695, a: 1}
+  LightTextColor: {r: 0.953, g: 0.953, b: 0.953, a: 1}
+  DarkTextColor: {r: 0.216, g: 0.216, b: 0.216, a: 1}
+  PrimaryFont: {fileID: 12800000, guid: e98bdb1309d34524dab15e520d1f5407, type: 3}
+  SecondaryFont: {fileID: 12800000, guid: e98bdb1309d34524dab15e520d1f5407, type: 3}
+  ButtonClickSounds:
+  - {fileID: 8300000, guid: 651eed029341219478231e21ecba5078, type: 3}
+  - {fileID: 8300000, guid: 177d759880747ef4b8e3275fe0a8ef7f, type: 3}
+  ButtonTransition: 3
+  ButtonSprite: {fileID: 21300000, guid: 97490794cb8beab4f88bc84a0a201dea, type: 3}
+  ButtonColor: {r: 1, g: 1, b: 1, a: 1}
+  SpriteState:
+    m_HighlightedSprite: {fileID: 21300000, guid: 19f038d7f25b8f1438ea341658f167bf,
+      type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: 851b4ab5f09f97741a660e57785b7018, type: 3}
+    m_DisabledSprite: {fileID: 21300000, guid: 1c855383dd863884394ebe5cb8c797de, type: 3}
+  ColorBlock:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+    m_PressedColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+    m_DisabledColor: {r: 0.7, g: 0.7, b: 0.7, a: 0.5}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0
+  AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled

@@ -1,0 +1,5 @@
+.vscode/
+Build/
+Temp/
+obj/
+UnityPackageManager/
